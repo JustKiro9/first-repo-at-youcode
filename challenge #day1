@@ -1,0 +1,14 @@
+let loanAmount = 100000;
+let durationInMonths = 24;
+let monthlyIncome = 8000;
+
+let monthlyPayment = loanAmount / durationInMonths;
+let limit = monthlyIncome * 0.30;
+
+if (monthlyPayment <= limit) {
+    console.log("Loan approved. Monthly payment: " + monthlyPayment + " MAD");
+} else if (monthlyIncome > 10000) {
+    console.log("You can increase the loan duration.");
+} else {
+    console.log("Loan rejected.");
+}
