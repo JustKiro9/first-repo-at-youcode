@@ -1,0 +1,3 @@
+const note = 14;
+
+console.log(note >= 10 ? "Réussi" : "Échoué");
