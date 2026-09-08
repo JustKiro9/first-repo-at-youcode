@@ -1,0 +1,9 @@
+const estAdmin = false;
+const estModerateur = true;
+const motDePasseValide = true;
+
+if (motDePasseValide && (estAdmin || estModerateur)) {
+    console.log("Accès Accordé");
+} else {
+    console.log("Accès Refusé");
+}
