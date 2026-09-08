@@ -1,0 +1,13 @@
+const montantPanier = 350;
+let livraisonGratuite = false;
+let coutFinal = montantPanier;
+
+if (montantPanier > 200) {
+    livraisonGratuite = true;
+}
+
+if (montantPanier > 500) {
+    coutFinal *= 0.90;
+}
+
+console.log("Coût final: " + coutFinal + " MAD, Livraison: " + (livraisonGratuite ? "Gratuite" : "Payante"));
