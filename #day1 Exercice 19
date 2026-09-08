@@ -1,0 +1,10 @@
+const hasAccount = false;
+const isGuest = true;
+const cartValue = 150;
+const isBanned = false;
+
+if (!isBanned && (hasAccount || (isGuest && cartValue > 100))) {
+    console.log("Commande validée");
+} else {
+    console.log("Commande refusée");
+}
