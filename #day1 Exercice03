@@ -1,0 +1,5 @@
+const ht = 200;
+const tva = 0.20;
+const ttc = ht + (ht * tva);
+
+console.log(ttc);
