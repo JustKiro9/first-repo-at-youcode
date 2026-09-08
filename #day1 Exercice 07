@@ -1,0 +1,5 @@
+let solde = 1000;
+solde -= 200;
+solde *= 1.05;
+
+console.log(solde);
