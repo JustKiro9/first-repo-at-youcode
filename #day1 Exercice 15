@@ -1,0 +1,7 @@
+const prixExtrait = "  349.99 MAD  ";
+
+const prixNettoye = prixExtrait.trim().replace(" MAD", "");
+const prixNombre = Number(prixNettoye);
+const prixTotal = prixNombre * 2;
+
+console.log(prixTotal);
