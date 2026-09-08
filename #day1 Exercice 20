@@ -1,0 +1,5 @@
+const nom = null;
+const pseudo = "NinjaCoder";
+const nomAAfficher = nom ?? pseudo ?? "Anonyme";
+
+console.log(nomAAfficher);
