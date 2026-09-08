@@ -1,0 +1,7 @@
+const telephone = "0612345678";
+
+if (typeof telephone === "string" && telephone.length === 10) {
+  console.log("Numéro valide :", telephone);
+} else {
+  console.log("Numéro invalide");
+}
