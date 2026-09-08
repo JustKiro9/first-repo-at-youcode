@@ -1,0 +1,25 @@
+'use strict';
+
+const nombre1 = 10;
+const nombre2 = 5;
+const operateur = "*";
+let resultat;
+
+switch (operateur) {
+    case "+":
+        resultat = nombre1 + nombre2;
+        break;
+    case "-":
+        resultat = nombre1 - nombre2;
+        break;
+    case "*":
+        resultat = nombre1 * nombre2;
+        break;
+    case "/":
+        resultat = nombre1 / nombre2;
+        break;
+    default:
+        resultat = "Opérateur invalide";
+}
+
+console.log(resultat); 
