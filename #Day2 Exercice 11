@@ -1,0 +1,7 @@
+let resultat = 1;
+
+for (let i = 0; i < 10; i++) {
+  resultat *= 2;
+}
+
+console.log(resultat); 
