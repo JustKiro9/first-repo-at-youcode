@@ -1,0 +1,7 @@
+let n = 1;
+
+while (n * n <= 1000) {
+  n++;
+}
+
+console.log(n * n); 
