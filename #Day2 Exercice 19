@@ -1,0 +1,15 @@
+let echiquier = "";
+const taille = 8;
+
+for (let i = 0; i < taille; i++) {
+  for (let j = 0; j < taille; j++) {
+    if ((i + j) % 2 === 0) {
+      echiquier += " ";
+    } else {
+      echiquier += "#";
+    }
+  }
+  echiquier += "\n";
+}
+
+console.log(echiquier);
