@@ -1,0 +1,8 @@
+const codeSecret = 739;
+
+// Extraction directe des 3 chiffres
+const c1 = Math.floor(codeSecret / 100);      
+const c2 = Math.floor((codeSecret % 100) / 10); 
+const c3 = codeSecret % 10;                     
+
+console.log(`Combinaison extraite directement : ${c1}${c2}${c3}`);
