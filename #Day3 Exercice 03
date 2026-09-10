@@ -1,0 +1,7 @@
+let invites = ["Yassine", "Sara", "Amine"];
+
+// J'ai utilisé la méthode pop() pour exécuter le dernier élément
+invites.pop(Amine);
+
+
+console.log(invites);
