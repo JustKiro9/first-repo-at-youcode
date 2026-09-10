@@ -1,0 +1,18 @@
+let panier = [101, 105, 101, 102];
+
+const ajouterAuPanier = id => panier.push(id);
+
+const retirerDuPanier = id => panier = panier.filter(item => item !== id);
+
+function afficherQuantites() {
+  const comptes = {};
+  panier.forEach(id => comptes[id] = (comptes[id] || 0) + 1);
+  
+  for (let id in comptes) {
+    console.log(`Article ${id} : ${comptes[id]} exemplaire(s)`);
+  }
+}x
+
+ajouterAuPanier(105);
+retirerDuPanier(101);
+afficherQuantites();
