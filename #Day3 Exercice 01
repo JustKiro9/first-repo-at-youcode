@@ -1,0 +1,4 @@
+let couleurs = ["Bleu", "Rouge", "Vert", "Noir", "Violet"];
+
+console.log(couleurs[0]);
+console.log(couleurs[2]); 
