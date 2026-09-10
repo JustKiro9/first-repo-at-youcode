@@ -1,0 +1,5 @@
+let mois = ["Jan", "Fev", "MARS_EN_TROP", "Avril"];
+
+mois.splice(2, 1);
+
+console.log(mois); 
