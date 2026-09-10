@@ -1,0 +1,7 @@
+let invites = [];
+
+invites.push("Yassine");
+invites.push("Sara");
+invites.push("Amine");
+
+console.log(invites);
