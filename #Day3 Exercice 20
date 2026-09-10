@@ -1,0 +1,18 @@
+function genererPaires(couleurs) {
+  const paires = [];
+
+  for (let i = 0; i < couleurs.length; i++) {
+    for (let j = 0; j < couleurs.length; j++) {
+     
+      if (i !== j) {
+        paires.push(`${couleurs[i]}-${couleurs[j]}`);
+      }
+    }
+  }
+
+  return paires;
+}
+
+
+const couleurs = ["Rouge", "Vert", "Bleu"];
+console.log(genererPaires(couleurs));
