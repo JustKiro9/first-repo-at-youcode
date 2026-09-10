@@ -1,0 +1,5 @@
+let grandTableau = Array.from({ length: 100 }, (_, i) => i + 1);
+
+let premierePage = grandTableau.slice(0, 10);
+
+console.log(premierePage); 
