@@ -1,0 +1,4 @@
+const tab = [1, 2, 3];
+tab.unshift(tab.pop());
+
+console.log(tab);
