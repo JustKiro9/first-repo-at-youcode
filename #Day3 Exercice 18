@@ -1,0 +1,4 @@
+const grille = [[1, 2], [3, 4], [5, 6]];
+const plat = [].concat(...grille);
+
+console.log(plat); 
