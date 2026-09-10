@@ -1,0 +1,5 @@
+let villes = ["Rabat", "Casablanca", "Tanger"];
+
+let estPresent = villes.includes("Marrakech");
+
+console.log(estPresent);
