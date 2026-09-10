@@ -1,0 +1,7 @@
+
+let nombres = [1, 2, 3, 4, 5];
+
+//J'ai utilisé la méthode .reverse pour les éléments
+nombres.reverse();
+
+console.log(nombres);
