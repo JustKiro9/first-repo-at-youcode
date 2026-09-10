@@ -1,0 +1,3 @@
+function sontEgaux(tab1, tab2) {
+  return tab1.length === tab2.length && tab1.every((val, i) => val === tab2[i]);
+}
