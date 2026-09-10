@@ -1,0 +1,6 @@
+let groupe1 = ["A", "B"];
+let groupe2 = ["C", "D"];
+// J'ai utilisé la méthode .concat() pour les éléments
+let fusion = groupe1.concat(groupe2);
+
+console.log(fusion);
