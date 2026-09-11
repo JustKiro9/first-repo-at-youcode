@@ -1,0 +1,7 @@
+function compterLettreE(texte) {
+  const correspondances = texte.match(/e/gi);
+  return correspondances ? correspondances.length : 0;
+}
+
+const paragraphe = "Ceci est un exemple de paragraphe pour compter la lettre e.";
+console.log(compterLettreE(paragraphe));
