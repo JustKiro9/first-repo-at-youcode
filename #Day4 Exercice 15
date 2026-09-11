@@ -1,0 +1,6 @@
+function sontAnagrammes(mot1, mot2) {
+  const normaliser = (m) => m.toLowerCase().split("").sort().join("");
+  return normaliser(mot1) === normaliser(mot2);
+}
+
+console.log(sontAnagrammes("chien", "niche")); 
