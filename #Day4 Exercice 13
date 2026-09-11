@@ -1,0 +1,5 @@
+function formater(montant) {
+  return String(montant).replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " MAD";
+}
+
+console.log(formater(1234567))
