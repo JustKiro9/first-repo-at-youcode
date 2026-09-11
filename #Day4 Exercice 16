@@ -1,0 +1,3 @@
+const tweet = "Beau temps à #Nador aujourd'hui avec la team #YouCode !";
+const hashtags = tweet.match(/#[\w]+/g) || [];
+console.log(hashtags);
