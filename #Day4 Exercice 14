@@ -1,0 +1,8 @@
+function compterMots(texte) {
+  const texteNettoye = texte.trim();
+  if (texteNettoye === "") return 0;
+  return texteNettoye.split(/\s+/).length;
+}
+
+const phrase = "Ceci est   une longue   chaîne avec des espaces multiples.";
+console.log(compterMots(phrase)); 
