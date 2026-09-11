@@ -1,0 +1,3 @@
+const chaine = "   utilisateur@email.com   ";
+const chaineNettoyee = chaine.trim();
+console.log(chaineNettoyee);
