@@ -1,0 +1,3 @@
+const phrase = "Ne sois pas idiot, réfléchis avant de parler.";
+const nouvellePhrase = phrase.replace("idiot", "*");
+console.log(nouvellePhrase);
