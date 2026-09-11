@@ -1,0 +1,3 @@
+
+const mot = "Anticonstitutionnellement";
+console.log(mot.length);
