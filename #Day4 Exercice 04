@@ -1,0 +1,6 @@
+function verifierEmail(email) {
+  return email.includes("@");
+}
+
+console.log(verifierEmail("contact@youcode.ma")); 
+console.log(verifierEmail("contactyoucode.ma"));   
