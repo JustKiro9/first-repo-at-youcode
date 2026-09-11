@@ -1,0 +1,3 @@
+const chaine = "Safi,Youssoufia,Nador,Casablanca";
+const villes = chaine.split(",");
+console.log(villes);
