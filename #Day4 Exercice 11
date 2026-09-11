@@ -1,0 +1,7 @@
+const phrase = "Hyper Text Markup Language";
+const acronyme = phrase
+  .split(" ")
+  .map(mot => mot[0].toUpperCase())
+  .join("");
+
+console.log(acronyme);
