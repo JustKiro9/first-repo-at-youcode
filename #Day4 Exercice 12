@@ -1,0 +1,3 @@
+const phrase = "Bonjour le monde";
+const phraseInversee = phrase.split(" ").reverse().join(" ");
+console.log(phraseInversee);
