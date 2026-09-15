@@ -1,0 +1,25 @@
+const utilisateurs = [];
+
+function ajouterUtilisateur(nom, email) {
+  utilisateurs.push({ id: utilisateurs.length + 1, nom, email });
+}
+
+function trouverParEmail(email) {
+  return utilisateurs.find(u => u.email === email);
+}
+
+function supprimerParId(id) {
+  const index = utilisateurs.findIndex(u => u.id === id);
+  if (index !== -1) utilisateurs.splice(index, 1);
+}
+
+function afficherAnnuaire() {
+  console.table(utilisateurs);
+}
+
+ajouterUtilisateur("Alen", "Alen@mail.com");
+ajouterUtilisateur("Anass", "Anass@mail.com");
+
+console.log(trouverParEmail("Anass@mail.com"));
+supprimerParId(1);
+afficherAnnuaire();
