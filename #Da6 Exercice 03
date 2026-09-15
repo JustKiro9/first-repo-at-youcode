@@ -1,0 +1,9 @@
+const utilisateur = {
+  nom: "Anass",
+  email: "YouCode@gmail.com",
+  estAdmin: true
+};
+
+delete utilisateur.estAdmin;
+
+console.log(utilisateur);
