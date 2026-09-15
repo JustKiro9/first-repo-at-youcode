@@ -1,0 +1,8 @@
+
+const livres = [
+  { titre: "The Lord of the Rings", auteur: "J.R.R. Tolkien" },
+  { titre: "Harry Potter and the Philosopher's Stone", auteur: "J.K. Rowling" },
+  { titre: "1984", auteur: "George Orwell" }
+];
+
+console.log(livres[1].titre);
