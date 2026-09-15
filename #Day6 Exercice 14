@@ -1,0 +1,7 @@
+const etudiant = { prenom: "Anass", ville: "Ouzzan", note: 16 };
+
+
+const { prenom, ville } = etudiant;
+
+console.log(prenom); 
+console.log(ville); 
