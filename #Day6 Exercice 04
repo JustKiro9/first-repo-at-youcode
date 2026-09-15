@@ -1,0 +1,3 @@
+function possedePropriete(obj, cle) {
+  return cle in obj;
+}
