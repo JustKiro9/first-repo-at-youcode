@@ -1,0 +1,12 @@
+const compteBancaire = {
+  solde: 0,
+  deposer(montant) {
+    this.solde += montant;
+  }
+};
+
+compteBancaire.deposer(100);
+console.log(compteBancaire.solde); 
+
+compteBancaire.deposer(50);
+console.log(compteBancaire.solde); 
