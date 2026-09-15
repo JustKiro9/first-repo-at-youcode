@@ -1,0 +1,9 @@
+const utilisateur = {
+  nom: "Anass",
+  age: 20,
+  estAdmin: true
+};
+
+console.log(utilisateur);
+
+export default utilisateur;
