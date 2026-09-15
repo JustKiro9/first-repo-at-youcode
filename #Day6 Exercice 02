@@ -1,0 +1,4 @@
+const user = {
+  age: 21,
+  email: "YouCode@gmail.com"
+};
