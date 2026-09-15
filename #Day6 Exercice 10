@@ -1,0 +1,12 @@
+function compterOccurrences(texte) {
+  const frequences = {};
+
+  for (const lettre of texte) {
+    frequences[lettre] = (frequences[lettre] || 0) + 1;
+  }
+
+  return frequences;
+}
+
+const resultat = compterOccurrences("abracadabra");
+console.log(resultat);
