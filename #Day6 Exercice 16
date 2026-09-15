@@ -1,0 +1,10 @@
+const entreprise = {
+  nom: "Tech Corp",
+  employes: [
+    { prenom: "Ali", poste: "Développeur" },
+    { prenom: "Sara", poste: "Designer" },
+    { prenom: "Omar", poste: "Manager" }
+  ]
+};
+
+console.log(entreprise.employes[0].prenom);
