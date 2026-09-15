@@ -1,0 +1,15 @@
+const donnees = [
+  { nom: "A", groupe: 1 },
+  { nom: "B", groupe: 2 },
+  { nom: "C", groupe: 1 }
+];
+
+function regrouperParGroupe(tableau) {
+  return tableau.reduce((res, { nom, groupe }) => {
+    res[groupe] = res[groupe] || [];
+    res[groupe].push({ nom });
+    return res;
+  }, {});
+}
+
+console.log(regrouperParGroupe(donnees));
