@@ -1,0 +1,10 @@
+const utilisateur = {
+  nom: "Anass",
+  age: 20,
+  email: "YouCode@gmail.com"
+};
+
+const cles = Object.keys(utilisateur);
+
+
+console.log(cles.length);
