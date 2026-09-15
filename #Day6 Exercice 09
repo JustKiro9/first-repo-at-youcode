@@ -1,0 +1,13 @@
+
+function filtrerCandidatsAdmis(candidats) {
+  return candidats.filter(candidat => candidat.score >= 10);
+}
+
+const candidats = [
+  { nom: "Alen", score: 9 },
+  { nom: "Nolan", score: 8 },
+  { nom: "Mark", score: 7 },
+  { nom: "thragg", score: 20 }
+];
+
+console.log(filtrerCandidatsAdmis(candidats));
