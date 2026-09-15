@@ -1,0 +1,18 @@
+const produits = [
+  { article: "PC", prix: "1500$" },
+  { article: "Souris", prix: "25$" }
+];
+
+function nettoyerPrix(liste) {
+  return liste.map(item => {
+    return {
+      ...item,
+      prix: Number(item.prix.replace("$", ""))
+    };
+  });
+}
+
+
+const produitsNettoyes = nettoyerPrix(produits);
+
+console.log(produitsNettoyes);
