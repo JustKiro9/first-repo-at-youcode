@@ -1,0 +1,10 @@
+
+
+const utilisateur = {
+  nom: "Anass",
+  age: 25,
+  email: "youcode@gmail.com"
+};
+
+const valeurs = Object.values(utilisateur);
+console.log(valeurs);
