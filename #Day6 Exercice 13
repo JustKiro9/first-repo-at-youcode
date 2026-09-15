@@ -1,12 +1,6 @@
-const compteBancaire = {
-  solde: 0,
-  deposer(montant) {
-    this.solde += montant;
-  }
-};
+const infoClient = { nom: "Ali" };
+const infoPaiement = { methode: "Carte" };
 
-compteBancaire.deposer(100);
-console.log(compteBancaire.solde); 
+const commande = { ...infoClient, ...infoPaiement };
 
-compteBancaire.deposer(50);
-console.log(compteBancaire.solde); 
+console.log(commande);
