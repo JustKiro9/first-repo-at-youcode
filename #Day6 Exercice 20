@@ -1,0 +1,19 @@
+const original = {
+  nom: "Ali",
+  adresse: { ville: "Rabat" }
+};
+
+const copie = { ...original };
+
+copie.adresse.ville = "Casablanca";
+
+console.log("Original :", original.adresse.ville); 
+console.log("Copie    :", copie.adresse.ville);    
+
+const vraieCopie1 = structuredClone(original);
+vraieCopie1.adresse.ville = "Tanger";
+console.log("Original resté intact :", original.adresse.ville); 
+
+const vraieCopie2 = JSON.parse(JSON.stringify(original));
+vraieCopie2.adresse.ville = "Marrakech";
+console.log("Original resté intact :", original.adresse.ville); 
