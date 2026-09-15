@@ -1,0 +1,15 @@
+function obtenirMeilleurCandidat(candidats) {
+  if (!candidats || candidats.length === 0) return null;
+
+  return candidats.reduce((meilleur, candidat) => {
+    return candidat.score > meilleur.score ? candidat : meilleur;
+  }).nom;
+}
+
+const candidats = [
+  { nom: "Alen", score: 90.6 },
+  { nom: "Nolan", score: 90.01 },
+  { nom: "Mark", score: 90.05 }
+];
+
+console.log(obtenirMeilleurCandidat(candidats)); 
