@@ -1,0 +1,9 @@
+const jsonString = '{"id":1, "titre":"Apprendre le JS", "vu":false}';
+
+const cours = JSON.parse(jsonString);
+
+cours.vu = true;
+
+const nouveauJSON = JSON.stringify(cours);
+
+console.log(nouveauJSON);
